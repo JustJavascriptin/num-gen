@@ -30,6 +30,7 @@ def generate_random_numbers():
     print("\n--- Using the 'secrets' module (cryptographically secure) ---")
 
     # 5. Secure random integer (for passwords/security tokens)
+    #
     # Generates a number N such that 0 <= N < 100
     secure_rand_num = secrets.randbelow(100)
     print(f"Secure random number between 0 and 99: {secure_rand_num}")
